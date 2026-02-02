@@ -1,45 +1,37 @@
-# 📦 ImportExportPriceAI — Intelligent Export Price Prediction
+# ExportPriceAI — Intelligent Export Price Prediction  
+*Building AI course project*
 
-## 1.Summary
+## Summary
+ExportPriceAI predicts international export prices using machine learning models trained on historical data, economic indicators, and product characteristics. The goal is to support exporters and analysts with reliable, data‑driven forecasts.
 
-**ImportExportPriceAI** is a machine learning project designed to predict international export prices for agricultural, mineral, or manufactured products.  
-The goal is to support exporters, producers, and analysts by providing data‑driven price forecasts that improve planning, negotiation, and risk management.
+---
 
-This repository contains the project description, methodology, and (optionally) code examples demonstrating how export price prediction can be implemented using AI techniques.
+## 1. Project Overview
+ExportPriceAI is a machine learning project designed to help exporters, producers, and analysts make informed decisions by forecasting export prices for agricultural, mineral, or manufactured goods.  
+The system identifies patterns in historical and economic data to generate accurate price predictions.
 
 ---
 
 ## 2. Background
-
 Export markets are highly volatile. Prices fluctuate due to global supply and demand, exchange rates, climate events, geopolitical tensions, and seasonal patterns.  
-Companies often struggle to estimate future prices, which leads to uncertainty in contracts, production planning, and investment decisions.
-
-This problem affects:
-
-- Small and medium exporters  
-- Agricultural producers  
-- Trading companies  
-- Cooperatives  
-- Market analysts  
+This uncertainty affects thousands of companies and producers who rely on accurate price expectations to negotiate contracts and plan production.
 
 ### Personal Motivation
-During my AI studies, I explored predictive modeling and realized how powerful machine learning can be for real economic challenges. Export pricing is a perfect example: it affects entire supply chains and national economies. A reliable prediction tool can help businesses make smarter decisions and reduce financial risk.
+During my AI studies, I explored predictive modeling and realized how powerful it can be for real economic challenges. Export pricing is a perfect example of a problem where AI can create real value.
 
 ### Why This Topic Matters
-Accurate price forecasting increases competitiveness, reduces losses, and strengthens long‑term planning — especially in countries where exports are a major economic driver.
+Better price forecasting improves competitiveness, reduces financial risk, and strengthens long‑term planning — especially in countries where exports are a major economic driver.
 
 ---
 
 ## 3. Data and AI Techniques
 
 ### Data Sources
-The project can use publicly available datasets such as:
-
-- **ComexStat (Brazilian Ministry of Economy)** — export volumes and prices  
-- **FAO and USDA databases** — agricultural commodity prices  
-- **World Bank and IMF** — macroeconomic indicators  
-- **Central Bank of Brazil** — exchange rates  
-- **NOAA / weather APIs** — climate data for agricultural products  
+- ComexStat (Brazilian Ministry of Economy)  
+- FAO and USDA commodity datasets  
+- World Bank and IMF macroeconomic indicators  
+- Central Bank of Brazil exchange rates  
+- Weather and climate APIs (NOAA, etc.)
 
 ### Data Requirements
 - Historical export prices  
@@ -47,22 +39,17 @@ The project can use publicly available datasets such as:
 - Macroeconomic variables  
 - Seasonal and temporal patterns  
 
-High‑quality, consistent data is essential for meaningful predictions.
-
 ### AI Techniques
-- Linear Regression (baseline model)  
-- Polynomial Regression  
+- Linear and Polynomial Regression  
 - Feedforward Neural Networks (MLP)  
 - Feature scaling and normalization  
-- Time‑series modeling (future extension: LSTM or Transformers)  
+- (Future) LSTM or Transformer models for time‑series forecasting  
 
 ### Optional Demo
-A simple Python notebook may include:
-
-- Data loading and cleaning  
-- Feature engineering  
-- Training a regression or neural network model  
-- Predicting export prices for new samples  
+A Python notebook may include:
+- Data preprocessing  
+- Model training  
+- Price prediction for new samples  
 
 ---
 
@@ -76,50 +63,39 @@ A simple Python notebook may include:
 - Supply chain planners  
 
 ### Usage Context
-The user provides product information and relevant variables (e.g., exchange rate, season, product type).  
-The system returns a predicted export price, helping with:
-
+The user inputs product details and economic variables.  
+The system outputs a predicted export price to support:
 - Contract negotiation  
 - Production planning  
 - Risk assessment  
 - Market strategy  
 
-Understanding the needs of all stakeholders is essential, especially small producers who often lack access to forecasting tools.
-
 ---
 
-## 5. Challenges and Limitations
-
-- Export prices are influenced by unpredictable events (climate, wars, pandemics).  
-- Data availability varies by product and country.  
-- Models may require frequent retraining to remain accurate.  
-- Predictions should support decisions, not replace expert judgment.  
+## 5. Challenges
+- Export prices are influenced by unpredictable events (climate, geopolitical crises).  
+- Data availability varies by product and region.  
+- Models require frequent updates to remain accurate.  
+- Predictions support decisions but do not replace expert judgment.  
 
 ---
 
 ## 6. Future Improvements
-
-- Add real‑time data ingestion (APIs for exchange rates and weather).  
-- Build a web dashboard for interactive predictions.  
-- Expand to multivariate time‑series models (LSTM, GRU, Transformers).  
-- Integrate risk analysis and confidence intervals.  
-- Extend the model to multiple countries and product categories.  
+- Real‑time data ingestion (exchange rates, weather).  
+- Interactive dashboards for visualization.  
+- Advanced time‑series models (LSTM, GRU, Transformers).  
+- Confidence intervals and risk analysis.  
+- Expansion to multiple countries and product categories.  
 
 ---
 
 ## 7. Acknowledgments
-
-This project draws inspiration from:
-
-- The **Elements of AI** course  
-- Open‑source tools such as NumPy, Pandas, Scikit‑Learn, and TensorFlow  
-- Public datasets from ComexStat, FAO, USDA, and other institutions  
-
-Special thanks to the open‑source community for enabling accessible AI experimentation.
+Inspired by the **Elements of AI** course.  
+Thanks to the open‑source community (NumPy, Pandas, Scikit‑Learn, TensorFlow).  
+Data from ComexStat, FAO, USDA, and other public sources.
 
 ---
 
 ## 8. License
-
 This project is shared for educational purposes.  
 If you reuse or extend it, please provide proper attribution.
