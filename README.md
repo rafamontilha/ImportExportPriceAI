@@ -1,6 +1,6 @@
 # 📦 ImportExportPriceAI — Intelligent Export Price Prediction
 
-## 1. Project Overview
+## 1.Summary
 
 **ImportExportPriceAI** is a machine learning project designed to predict international export prices for agricultural, mineral, or manufactured products.  
 The goal is to support exporters, producers, and analysts by providing data‑driven price forecasts that improve planning, negotiation, and risk management.
